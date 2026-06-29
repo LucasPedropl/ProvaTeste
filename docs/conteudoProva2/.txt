@@ -1,0 +1,14 @@
+Testes estruturais, com critérios baseados no Grafo de Fluxo de Dados;
+Testes baseados em defeitos, envolvendo semeadura de defeitos e teste de mutação;
+Testes baseados em riscos;
+Níveis de teste (unitário, integração e sistema);
+Drivers e stubs;
+Automatização da atividade de teste (JUnit e Mockito).
+
+/*1*/int frete(int peso, int regiao) {
+/*1*/    int valor = 10;
+/*1*/    if (peso > 5)
+/*2*/       valor = valor + 20;
+/*3*/    if (regiao == 1)
+/*4*/        valor = valor + 5;
+/*5*/    return valor;
