@@ -85,7 +85,7 @@ export default function SearchSelect({
 
       {/* Painel Suspenso */}
       {isOpen && (
-        <div className="absolute z-50 w-full mt-2 glass-panel rounded-lg shadow-lg border border-border animate-scale-in overflow-hidden">
+        <div className="absolute z-50 w-full mt-2 bg-card rounded-lg shadow-xl border border-border animate-scale-in overflow-hidden">
           {/* Caixa de Busca */}
           <div className="flex items-center px-3 py-2 border-b border-border bg-muted/50">
             <Search className="w-4 h-4 text-muted-foreground mr-2 shrink-0" />
